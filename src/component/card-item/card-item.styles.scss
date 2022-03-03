@@ -1,0 +1,50 @@
+.card-item{
+    display: flex;
+    border: 1px solid pink;
+    border-radius: 30px;
+    box-shadow: 5px 10px #888888;
+    justify-content: space-between;
+    height:auto;
+    padding-bottom:2rem;
+    margin: 1rem auto;
+    width:80vw;
+
+    .card-details{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+
+        .order-quantity{
+            color:gray;
+            font-size: 1.5rem;
+        }
+        
+        .item-name{
+            font-size: 2.2rem;
+        }
+
+        .payment{
+            font-size: 2rem;
+        }       
+    }
+
+    .image-rupees{
+        display: flex;
+        flex-direction: column;
+        
+        img{
+            padding-left: 23px;
+             padding-top: 24px;
+             height: 100px;
+          
+        }
+
+        .rupee{
+            padding-left: 72px;
+            font-size: 1.5rem;
+            
+    }
+}
+   
+}

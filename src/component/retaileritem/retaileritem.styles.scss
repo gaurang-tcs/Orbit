@@ -1,0 +1,13 @@
+.retaileritem{
+    display: flex;
+    justify-content: space-between;
+    margin:1rem 0;
+    padding: 0.5rem 0;
+    border-bottom:0.2px solid lightslategray;
+    text-transform: capitalize;
+
+  .name{
+      width: 90%
+  }
+
+}

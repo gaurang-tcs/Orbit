@@ -1,0 +1,17 @@
+.card {
+    width: 20%;
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    
+    .sales {
+       font-size: 2rem;
+    }
+    .value {
+      font-size: 2rem;
+    }
+}
